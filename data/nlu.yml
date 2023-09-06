@@ -17,12 +17,96 @@ nlu:
     - goodevening
     - good afternoon
 
+- intent: introduce ISRO
+  examples: |
+    - What is ISRO?
+    - Tell me about ISRO
+    - Who is ISRO?
+    - Can you explain what ISRO is?
+    - I'm not familiar with ISRO. What it is ?
+    - What is the full form of ISRO ?
+    - Define ISRO, please?
+
+- intent: Missions
+  examples: |
+    - What are ISRO's current Missions?
+    - What are ISRO's current missions?
+    - Tell me about ISRO's current missions.
+    - What is the purpose of ISRO's current missions?
+    - What are the spacecraft involved in ISRO's current missions?
+    - What are the rockets used in ISRO's current missions?
+    - When are ISRO's current missions scheduled to launch?
+    - Where are ISRO's current missions headed?
+    - What are the expected outcomes of ISRO's current missions?
+    - How can I learn more about ISRO's current missions?
+
+- intent: spacecraft
+  examples: |
+    - What is a spacecraft?
+    - What are the different types of spacecraft?
+    - What are the key features of a spacecraft?
+    - What are the different stages of a spacecraft's journey?
+    - What are the different propulsion systems used in spacecraft?
+    - What are the different communication systems used in spacecraft?
+    - What are the different sensors used in spacecraft?
+    - What are the different challenges of spacecraft design and operation?
+    - What are the future prospects of spacecraft technology?
+
+- intent: launches
+  examples: |
+    - What is a launch?
+    - What are the different types of launches?
+    - What are the key features of a launch?
+    - What are the different stages of a launch?
+    - What are the different factors that affect a launch?
+    - What are the different challenges of launch operations?
+    - What are the future prospects of launch technology?
+
+- intent: rockets
+  examples: |
+    - What are the different types of rockets?
+    - What are the key features of a rocket?
+    - How do rockets work?
+    - What are the different stages of a rocket's flight?
+    - What are the different challenges of rocket design and operation?
+    - What are the future prospects of rocket technology?
+
+- intent: achievements
+  examples: |
+    - What are some of ISRO's achievements?
+    - How has ISRO benefited India?
+    - What are ISRO's future goals?
+    - What are some of the challenges that ISRO faces?
+    - How can ISRO be supported?
+
+- intent: people
+  examples: |
+    - Who are some famous people associated with ISRO?
+    - What are the contributions of these people to ISRO?
+    - How have these people inspired others?
+    - What are the challenges that these people faced?
+    - How can we learn from these people?
+
+- intent: education
+  examples: |
+    - What are the educational opportunities available for students interested in space science and technology?
+    - How can ISRO help students learn about space science and technology?
+    - What are the different ways to get involved in space education?
+    - What are the challenges of space education in India?
+    - How can we overcome the challenges of space education in India?
+
+- intent: contact
+  examples: |
+    -  How can I contact ISRO?
+    - What are the different ways to contact ISRO?
+    - What are the contact details for ISRO?
+    - What are the hours of operation for ISRO's contact center?
+    - How can I get in touch with a specific person at ISRO?
+
 - intent: goodbye
   examples: |
     - cu
     - good by
-    - cee you later
-    - good night
     - bye
     - goodbye
     - have a nice day
@@ -38,50 +122,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
 
 - intent: bot_challenge
   examples: |

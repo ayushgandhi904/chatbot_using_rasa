@@ -1,34 +1,65 @@
 version: "3.1"
 
 intents:
+  - utter_introduce_isro
+  - missions
+  - spacecraft
+  - launches
+  - rockets
+  - achievements
+  - people
+  - education
+  - contact 
   - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
 
 responses:
+
+  utter_introduce_isro:
+  - text: "ISRO stands for the Indian Space Research Organisation. It is the space agency of the Government of India and is responsible for India's space exploration and satellite development efforts. ISRO has been involved in numerous successful space missions, satellite launches, and scientific research in space technology."
+
+  utter_missions:
+  - text: Chandrayaan-3, This is the third lunar mission of ISRO. It is scheduled to launch in September 2023 and will land a rover on the Moon's South Pole.
+  - text: Aditya-L1, This is a solar mission of ISRO. It is scheduled to launch in September 2023 and will study the Sun's atmosphere and its impact on space weather.
+  - text: Gaganyaan, This is a human spaceflight mission of ISRO. It is scheduled to launch in 2024 and will send Indian astronauts to the International Space Station.
+
+  utter_spacecraft:
+  - text: A spacecraft is a vehicle that is designed to travel through space.
+
+  utter_launches:
+  - text: There are many different types of launches, including orbital launches, suborbital launches, and sounding rocket launches.
+  - text: The key features of a launch include the launch vehicle, the payload, and the launch site.
+  - text: The different stages of a launch include the countdown, the liftoff, the ascent, and the orbit insertion.
+  - text: The different factors that affect a launch include the weather, the wind, and the gravity.
+  - text: The different challenges of launch operations include the risk of failure, the cost, and the environmental impact.
+  - text: The future prospects of launch technology include the development of reusable rockets, the exploration of other planets, and the development of interstellar travel.
+
+  utter_rockets:
+  - text: Rockets are powered by the combustion of fuel and oxidizer.
+  - text: The different types of rockets include solid-fuel rockets, liquid-fuel rockets, and hybrid rockets.
+  - text: The key features of a rocket include its propulsion system, its payload, and its guidance system.
+  - text: Rockets work by expelling hot gases from the back of the rocket, which propels the rocket forward.
+
+  utter_achievements:
+  - text: Launching the first Indian satellite, Aryabhata, in 1975.
+  - text: Launching the first Indian lunar probe, Chandrayaan-1, in 2008
+  - text: Launching the first Indian interplanetary mission, Mangalyaan, in 2013
+  - text: Successfully launching 104 satellites in a single mission in 2017.
+
+  utter_people:
+  - text: Dr. Vikram Sarabhai, He is considered the father of the Indian space program. He founded ISRO and played a key role in its early development.
+  - text: Dr. A.P.J. Abdul Kalam, He was the former President of India and a renowned scientist. He was the Scientific Adviser to the Defence Minister and played a key role in the development of India's missile and space programs.
+  - text: Nambi Narayanan, He is a former scientist at ISRO who was falsely accused of espionage. He was later exonerated and awarded the Padma Bhushan, India's third-highest civilian award.
+
+  utter_education:
+  - text: Space Awareness Programme, This programme is designed to raise awareness about space science and technology among students.
+  - text: Space Education Programme, This programme provides training to teachers on how to teach space science and technology.
+  - text: Space Clubs, These clubs are formed by students to learn about space science and technology.
+
+  utter_contact:
+  - text: Headquarters, Indian Space Research Organisation, Antariksh Bhavan, New BEL Road, Bengaluru - 560 094.
+  - text: Phone, +91 80 2217 2294 / 96.
+  - text: Email,  isropr[at]isro.gov.in.
+  - text: Website,  https://www.isro.gov.in/
+
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  - text: "Hey! I am ISRO chatbot !"
