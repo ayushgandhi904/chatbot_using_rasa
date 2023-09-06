@@ -1,2 +1,2 @@
 # chatbot_using_rasa
-Creating chatbot using RASA NLU
+Creating ISRO chatbot using RASA NLU
