@@ -16,6 +16,8 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - hi there
+    - hi bot
 
 - intent: introduce ISRO
   examples: |
@@ -23,9 +25,10 @@ nlu:
     - Tell me about ISRO
     - Who is ISRO?
     - Can you explain what ISRO is?
-    - I'm not familiar with ISRO. What it is ?
-    - What is the full form of ISRO ?
+    - I'm not familiar with ISRO. What it is?
+    - What is the full form of ISRO?
     - Define ISRO, please?
+    - ISRO meaning
 
 - intent: Missions
   examples: |
@@ -39,93 +42,116 @@ nlu:
     - Where are ISRO's current missions headed?
     - What are the expected outcomes of ISRO's current missions?
     - How can I learn more about ISRO's current missions?
+    - Give me information on ISRO's ongoing missions
+
+
 
 - intent: spacecraft
   examples: |
-    - What is a spacecraft?
-    - What are the different types of spacecraft?
-    - What are the key features of a spacecraft?
-    - What are the different stages of a spacecraft's journey?
-    - What are the different propulsion systems used in spacecraft?
-    - What are the different communication systems used in spacecraft?
-    - What are the different sensors used in spacecraft?
-    - What are the different challenges of spacecraft design and operation?
-    - What are the future prospects of spacecraft technology?
+    - Explain the concept of spacecraft.
+    - List different spacecraft types.
+    - What technologies are used in spacecraft?
+    - Tell me about spacecraft propulsion methods.
+    - How do spacecraft communicate with Earth?
+    - Explain the role of sensors in spacecraft.
+    - What are the challenges faced during spacecraft design and operation?
+    - What advancements can we expect in spacecraft technology in the future?
+    - Describe the components of a spacecraft.
 
 - intent: launches
   examples: |
-    - What is a launch?
-    - What are the different types of launches?
-    - What are the key features of a launch?
-    - What are the different stages of a launch?
-    - What are the different factors that affect a launch?
-    - What are the different challenges of launch operations?
-    - What are the future prospects of launch technology?
+    - Define the term "launch" in space exploration.
+    - Name some common types of rocket launches.
+    - What makes a launch successful?
+    - Explain the different stages of a rocket launch.
+    - How does weather impact a rocket launch?
+    - Discuss the challenges associated with launch operations.
+    - What innovations are expected in the field of launch technology?
+    - Can you describe the launch site preparation process?
+    - Tell me about the safety measures during rocket launches.
 
 - intent: rockets
   examples: |
-    - What are the different types of rockets?
-    - What are the key features of a rocket?
-    - How do rockets work?
-    - What are the different stages of a rocket's flight?
-    - What are the different challenges of rocket design and operation?
-    - What are the future prospects of rocket technology?
+    - Elaborate on the various rocket types used in space missions.
+    - List the critical features of rockets.
+    - Provide an overview of how rockets function.
+    - Explain the phases of a rocket's flight.
+    - Discuss the complexities of rocket design and operation.
+    - What are the potential breakthroughs in rocket technology?
+    - Describe the significance of payload capacity in rockets.
+    - How does payload deployment work in space missions?
+    - What are the safety protocols during rocket launches?
 
 - intent: achievements
   examples: |
-    - What are some of ISRO's achievements?
-    - How has ISRO benefited India?
-    - What are ISRO's future goals?
-    - What are some of the challenges that ISRO faces?
-    - How can ISRO be supported?
+    - Name some pioneering achievements by ISRO.
+    - Elaborate on the impact of ISRO's work on India.
+    - What are ISRO's future objectives and goals?
+    - Highlight some of the challenges that ISRO confronts.
+    - How can individuals or organizations support ISRO's endeavors?
+    - What are the economic benefits of ISRO's missions to India?
+    - Discuss the international collaborations involving ISRO.
+    - Explain the role of ISRO in advancing space research.
+    - Can you provide statistics on ISRO's successful missions?
 
 - intent: people
   examples: |
-    - Who are some famous people associated with ISRO?
-    - What are the contributions of these people to ISRO?
-    - How have these people inspired others?
-    - What are the challenges that these people faced?
-    - How can we learn from these people?
+    - Share information about prominent figures linked to ISRO.
+    - Detail the contributions made by key individuals to ISRO's success.
+    - Highlight the inspirational influence of ISRO's pioneers.
+    - Describe the obstacles faced by notable ISRO personalities.
+    - Provide insights into the lessons we can learn from these individuals.
+    - Share stories or anecdotes related to ISRO's prominent figures.
+    - What awards and recognition have ISRO leaders received?
+    - How have ISRO leaders motivated the youth of India?
+    - What is the legacy of Dr. A.P.J. Abdul Kalam in space research?
 
 - intent: education
   examples: |
-    - What are the educational opportunities available for students interested in space science and technology?
-    - How can ISRO help students learn about space science and technology?
-    - What are the different ways to get involved in space education?
-    - What are the challenges of space education in India?
-    - How can we overcome the challenges of space education in India?
+    - Explain the available educational avenues in space science and technology.
+    - How can ISRO contribute to students' knowledge of space science?
+    - Enumerate different methods to engage in space education.
+    - Discuss the challenges faced by space education in the Indian context.
+    - Suggest strategies to address the hurdles in space education.
+    - Describe ISRO's initiatives to promote space education.
+    - What scholarships or programs can aspiring space scientists pursue?
+    - Share success stories of students in the field of space science.
+    - What are the career prospects in space technology for Indian students?
 
 - intent: contact
   examples: |
-    -  How can I contact ISRO?
-    - What are the different ways to contact ISRO?
-    - What are the contact details for ISRO?
-    - What are the hours of operation for ISRO's contact center?
-    - How can I get in touch with a specific person at ISRO?
+    - Provide detailed contact information for ISRO's headquarters.
+    - How can I reach ISRO by phone?
+    - Can you share ISRO's official email address?
+    - Are there specific hours when I can contact ISRO's support center?
+    - Explain the process of getting in touch with a specific person at ISRO.
+    - Is there a designated helpline for urgent space-related inquiries?
+    - Can you guide me on submitting a formal inquiry to ISRO?
+    - Share ISRO's social media profiles for updates and communication.
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - Catch you later.
+    - Farewell.
+    - Take care.
+    - Until next time.
+    - Goodbye and have a great day!
+    - See you soon.
+    - Bye for now.
+    - Wishing you a pleasant day.
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - Absolutely.
+    - You're right.
+    - That's correct.
+    - Affirmative.
+    - Indeed, it is.
+    - You're spot on.
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - Are you a human or a bot?
+    - Can you confirm if you're a real person?
+    - How do I know if I'm talking to a human or a bot?
+    - Tell me your true identity.

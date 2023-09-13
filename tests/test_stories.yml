@@ -2,90 +2,73 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-- story: happy path 1
-  steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
 
-- story: happy path 2
-  steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
-
-- story: sad path 1
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
-  - action: utter_goodbye
-
-- story: sad path 3
+- story: Test Greet and Introduction
   steps:
   - user: |
       hi
-    intent: greet
   - action: utter_greet
   - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
+      What is ISRO?
+  - action: utter_introduce_isro
 
-- story: say goodbye
+- story: Test Asking About Missions
   steps:
   - user: |
-      bye-bye!
-    intent: goodbye
+      What are ISRO's current missions?
+  - action: utter_missions
+
+- story: Test Asking About Spacecraft
+  steps:
+  - user: |
+      What is a spacecraft?
+  - action: utter_spacecraft
+
+- story: Test Asking About Launches
+  steps:
+  - user: |
+      What is a launch?
+  - action: utter_launches
+
+- story: Test Asking About Rockets
+  steps:
+  - user: |
+      What are the different types of rockets?
+  - action: utter_rockets
+
+- story: Test Asking About Achievements
+  steps:
+  - user: |
+      What are some of ISRO's achievements?
+  - action: utter_achievements
+
+- story: Test Asking About People Associated with ISRO
+  steps:
+  - user: |
+      Who are some famous people associated with ISRO?
+  - action: utter_people
+
+- story: Test Asking About Space Education
+  steps:
+  - user: |
+      What are the educational opportunities available for students interested in space science and technology?
+  - action: utter_education
+
+- story: Test Asking for Contact Information
+  steps:
+  - user: |
+      How can I contact ISRO?
+  - action: utter_contact
+
+- story: Test Bid Goodbye
+  steps:
+  - user: |
+      bye
   - action: utter_goodbye
 
-- story: bot challenge
+- story: Test Bot Challenge
   steps:
   - user: |
       are you a bot?
-    intent: bot_challenge
-  - action: utter_iamabot
+  - action: utter_bot_challenge
+

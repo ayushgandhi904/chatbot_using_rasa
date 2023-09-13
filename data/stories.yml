@@ -2,29 +2,59 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: Greet and Introduction
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: introduce ISRO
+  - action: utter_introduce_isro
 
-- story: sad path 1
+- story: Ask About Missions
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: Missions
+  - action: utter_missions
 
-- story: sad path 2
+- story: Ask About Spacecraft
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
+  - intent: spacecraft
+  - action: utter_spacecraft
+
+- story: Ask About Launches
+  steps:
+  - intent: launches
+  - action: utter_launches
+
+- story: Ask About Rockets
+  steps:
+  - intent: rockets
+  - action: utter_rockets
+
+- story: Ask About Achievements
+  steps:
+  - intent: achievements
+  - action: utter_achievements
+
+- story: Ask About People Associated with ISRO
+  steps:
+  - intent: people
+  - action: utter_people
+
+- story: Ask About Space Education
+  steps:
+  - intent: education
+  - action: utter_education
+
+- story: Ask for Contact Information
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- story: Bid Goodbye
+  steps:
+  - intent: goodbye
   - action: utter_goodbye
+
+- story: Bot Challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge

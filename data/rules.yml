@@ -2,12 +2,67 @@ version: "3.1"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Handle greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Handle introduction to ISRO
+  steps:
+  - intent: introduce ISRO
+  - action: utter_introduce_isro
+
+- rule: Provide information about missions
+  steps:
+  - intent: Missions
+  - action: utter_missions
+
+- rule: Provide information about spacecraft
+  steps:
+  - intent: spacecraft
+  - action: utter_spacecraft
+
+- rule: Provide information about launches
+  steps:
+  - intent: launches
+  - action: utter_launches
+
+- rule: Provide information about rockets
+  steps:
+  - intent: rockets
+  - action: utter_rockets
+
+- rule: Share ISRO's achievements
+  steps:
+  - intent: achievements
+  - action: utter_achievements
+
+- rule: Share information about people associated with ISRO
+  steps:
+  - intent: people
+  - action: utter_people
+
+- rule: Discuss space education
+  steps:
+  - intent: education
+  - action: utter_education
+
+- rule: Provide contact information
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- rule: Handle goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Handle affirmations
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+
+- rule: Handle bot challenges
   steps:
   - intent: bot_challenge
-  - action: utter_iamabot
+  - action: utter_bot_challenge
